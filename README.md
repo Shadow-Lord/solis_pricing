@@ -1,4 +1,5 @@
 Solis Pricing Engine
+
 A Home Assistant custom integration that calculates daily import and export energy costs for Solis inverters using statistics deltas, tariff windows, and configurable pricing.
 
 This integration is designed for Solis sensors that provide cumulative energy values (with calendar history) and do not reset at midnight.
