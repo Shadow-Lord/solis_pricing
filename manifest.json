@@ -1,0 +1,10 @@
+{
+  "domain": "solis_pricing",
+  "name": "Solis Pricing Engine",
+  "version": "0.1.0",
+  "documentation": "https://github.com/youruser/solis_pricing",
+  "requirements": [],
+  "codeowners": ["@youruser"],
+  "iot_class": "local_polling",
+  "integration_type": "helper"
+}
