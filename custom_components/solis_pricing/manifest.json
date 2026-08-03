@@ -1,10 +1,10 @@
 {
   "domain": "solis_pricing",
   "name": "Solis Pricing Engine",
-  "version": "0.1.0",
-  "documentation": "https://github.com/youruser/solis_pricing",
+  "version": "0.1.1",
+  "documentation": "https://github.com/Shadow-Lord/solis_pricing",
   "requirements": [],
-  "codeowners": ["@youruser"],
+  "codeowners": ["@Shadow-Lord"],
   "iot_class": "local_polling",
   "integration_type": "helper"
 }
