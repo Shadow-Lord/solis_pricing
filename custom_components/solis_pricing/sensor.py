@@ -20,16 +20,14 @@ class PricingConfig:
     import_windows: list[dict]
     export_price: float
 
-def _default_config(hass: HomeAssistant) -> PricingConfig:
-    # You can later move this to YAML or config entry
+def _default_config(hass: HomeAssistant) -> PricingPricingConfig:
     return PricingConfig(
         import_entity="sensor.solis_inverter_1031040229230153_solis_daily_grid_energy_purchased",
         export_entity="sensor.solis_inverter_1031040229230153_solis_daily_on_grid_energy",
         import_windows=[
-            # Example: flat rate 24h
-            {"start": 0, "end": 24 * 60, "price": 0.093},  # €0.093/kWh
+            {"start": 0, "end": 24 * 60, "price": 0.093},
         ],
-        export_price=0.06,  # €0.06/kWh
+        export_price=0.06,
     )
 
 async def async_setup_platform(
